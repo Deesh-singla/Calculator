@@ -1,0 +1,49 @@
+#container{
+    height:420px;
+    width:300px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    border-radius: 20px;
+}
+button{
+    cursor: pointer;
+}
+#container #display{
+    width:280px;
+    height: 64px;
+    
+}
+.arithmatic_operators,.num,.arithmatic_operators1{
+    height: 64px;
+    width:64px;
+    border:transparent;
+    border-radius: 50%;
+    margin:2px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#line_5 #zero{
+    width:128px;
+    border: transparent;
+    border-radius: 30px;
+}
+.num{
+    background-color: darkgray;
+}
+.arithmatic_operators,.arithmatic_operators1{
+    background-color: orange;
+}
+#display{
+    color:white;
+    font-size: 30px;
+    text-align: right;
+    line-height: 90px;
+}
+
