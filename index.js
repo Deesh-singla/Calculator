@@ -87,6 +87,7 @@ document.querySelector('#ac').addEventListener('click', () => {
 document.querySelector('#del').addEventListener('click', () => {
     if(isResult){
         result=Math.floor(result/10);
+        num1=result;
         display.textContent=result;
     }
     else if (isNum2) {
@@ -103,4 +104,3 @@ document.querySelector('#del').addEventListener('click', () => {
         display.textContent = num1  
     }
 });
-
